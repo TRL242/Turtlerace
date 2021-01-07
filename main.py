@@ -11,7 +11,7 @@ def play_game():
     clearscreen()
     is_race_on = False
     colors = ["red", "orange", "yellow", "green", "blue", "purple"]
-    user_bet = screen.textinput(title="Make your bet", prompt=f"Which turtle will win the race? Enter a color from the list {colors}: ").lower
+    user_bet = screen.textinput(title="Make your bet", prompt=f"Which turtle will win the race? Enter a color from the list {colors}: ").lower()
 
     y_positions = [-70, -40, -10, 20, 50, 80]
     all_turtles = []
